@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  
+}
+
+@media(max-width:767px){
+  header .breadcrumb {
+    display: none;
+  }
+}
+@media(min-width:768px){
+  header .navbar {
+    display: none;   
+  }
+}
+
+.jumbotron>img {
+  // background:  rgba(234, 158, 108, 0.8) url('../img/atikh-bana-zPFws4toKhg-unsplash.jpg') center/cover;
+  position: relative;
+}
+
+.btn {
+  background-color: rgba(234, 158, 108, 0.8);
+}
+@keyframes anim {
+  0% {background-color:white; left:-700px; top:20px;};
+  100% {background-color: rgba(234, 158, 108, 0.8); left:0px; top:20px;};
+}
+
+.book-now-bg {
+  
+  height: 20rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+      
+      .book-now {
+        position: relative;
+        animation-name: anim;
+        animation-duration: 7s;
+        animation-timing-function: ease-out;
+        animation-iteration-count: 3;
+        width: 15rem;
+        height: 10rem;
+        
+        // top: 3rem;
+        // right: 1.4rem;
+        
+        background-color: rgba(234, 158, 108, 0.7);
+        display: flex;
+        flex-direction: column;
+
+        @media (min-width: 768px) {
+           width: 20rem;
+           height: 15rem;
+          // top: 3rem;
+          // right: 4rem;
+        }
+
+        a {
+          margin: 0 auto;
+        }
+        
+        .btn {
+          padding-bottom: 4px;
+        }
+
+      }
+  
+}
+  
+footer {
+  background-color: rgba(234, 158, 108, 0.8);
+}
