@@ -143,7 +143,7 @@ exports.publish = gulp.series(
   publishImages
 );
 
-exports.build_prod = gulp.series(
+exports.build = gulp.series(
   cleanAssets, 
   publishHtmlProduction, 
   publishFonts, 
