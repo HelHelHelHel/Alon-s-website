@@ -19,8 +19,16 @@ html {
   }
 }
 
+ul>li {
+  list-style: none;
+}
+.lang  {
+  color: black;
+  border: solid 1px black;
+  padding: 0.5rem;
+}
 .jumbotron>img {
-  // background:  rgba(234, 158, 108, 0.8) url('../img/atikh-bana-zPFws4toKhg-unsplash.jpg') center/cover;
+  background:  rgba(234, 158, 108, 0.8) url('../img/atikh-bana-zPFws4toKhg-unsplash.jpg') center/cover;
   position: relative;
 }
 
